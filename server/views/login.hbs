@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Jano - BPM | La Fabril C. por A.</title>
+
+    <!-- Bootstrap -->
+    <link href="public/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- Font Awesome -->
+    <link href="public/vendors/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- NProgress -->
+    <link href="public/vendors/nprogress/nprogress.css" rel="stylesheet" type="text/css">
+    <!-- Animate.css -->
+    <link href="public/vendors/animate.css/animate.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom Theme Style -->
+    <link href="public/build/css/custom.min.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body class="login">
+    <div>
+      <a class="hiddenanchor" id="signup"></a>
+      <a class="hiddenanchor" id="signin"></a>
+
+      <div class="login_wrapper">
+        <div class="animate form login_form">
+          <section class="login_content">
+            <form action="/dashboard">
+              <h1>Iniciar Sesión</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Usuario" data-validate-length-range="6" required="required" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Contraseña" data-validate-length-range="6" required="required" />
+              </div>
+              <div>
+                <input type="submit" class="btn btn-default submit" value="Iniciar Sesión">
+                <a class="reset_pass" href="#">¿Olvidaste tu contraseña?</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">¿No tienes credenciales?
+                  <a href="#signup" class="to_register"> Solicita una cuenta </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+
+                <div>
+                  <h1><i class="fa fa-superpowers"></i> Jano BPM</h1>
+                  <p>©2017 Todos los derechos reservados. Departamento de TI Desarrollo Industrial - La Fabril C. por A.</p>
+                </div>
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <div id="register" class="animate form registration_form">
+          <section class="login_content">
+            <form>
+              <h1>Solicitar Acceso</h1>
+              <div>
+                <input type="text" class="form-control" placeholder="Usuario" required="" />
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Correo" required="" />
+              </div>
+              <div>
+                <input type="password" class="form-control" placeholder="Contraseña" required="" />
+              </div>
+              <div>
+                <a class="btn btn-default submit" href="/dashboard">Solicitar</a>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="separator">
+                <p class="change_link">¿Eres un miembro?
+                  <a href="#signin" class="to_register"> Iniciar Sesión </a>
+                </p>
+
+                <div class="clearfix"></div>
+                <br />
+                </di
+                <div>
+                  <h1><i class="fa fa-superpowers"></i> Jano BPM</h1>
+                  <p>©2018 Todos los derechos reservados. Departamento de TI Desarrollo Industrial - La Fabril C. por A.</p>
+                </div>
+              </div>
+
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="public/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="public/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="public/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="public/vendors/nprogress/nprogress.js"></script>
+    <!-- jQuery Smart Wizard -->
+    <script src="public/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
+    <!-- validator -->
+    <script src="public/vendors/validator/validator.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="public/build/js/custom.min.js"></script>
+
+  </body>
+</html>
