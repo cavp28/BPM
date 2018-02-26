@@ -38,7 +38,9 @@ app.set('views', (__dirname + '/views'));
 
 app.get('/', (req, res) => res.render('login.hbs', {}));
 app.get('/dashboard', (req, res) => res.render('dashboard.hbs', {}));
-
+app.get('/jde', (req, res) => {
+  return res.send({'Location': 'www.google.com'}, 301)
+});
 
 app.listen(port, () => {
   console.log(`BPM APP Started on port ${port}`);

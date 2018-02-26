@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Jano - BPM | La Fabril C. por A.</title>
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="../public/build/images/favicon.png">
 
     <!-- Bootstrap -->
     <link href="../public/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -37,7 +37,7 @@
         opacity: 0.3;
         top: 10%;
         z-index: 99999;
-        background: url('images/BPM.png') center center no-repeat;
+        background: url('../public/build/images/BPM.png') center center no-repeat;
         pointer-events: none;
       }
     </style>
@@ -153,7 +153,12 @@
      <!-- bootstrap-daterangepicker -->
      <script src="../public/vendors/moment/min/moment.min.js"></script>
      <script src="../public/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
-
+     <script type="text/javascript">
+        function redirectJDE () {
+            self.location = "www.google.com";
+            return false;// return true or false, depending on whether you want to allow the `href` property to follow through or not
+        }
+    </script>
      <!-- Custom Theme Scripts -->
      <script src="../public/build/js/custom.min.js"></script>
   </body>
